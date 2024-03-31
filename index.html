@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./index.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "jF4SX_4XqqVx_UQVU"});
+   })();
+</script>
+</head>
+<body>
+    <nav>
+        <div class="left">
+        <a href="">Abinaya A</a>
+        </div>
+
+        <div class="right"> 
+        <a href="https://www.linkedin.com/in/abinayaabi1710" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+        </a>
+
+        <a href="mailto:abinayaabi1710@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+        </a>
+
+        <a href="https://drive.google.com/file/d/1Gp2sRwRVFYmJnh8OHiqYwyXDM6XF5pDR/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-file"></i>
+        <span>Download Resume</span>
+        </a>
+        </div>
+    </nav>
+
+    <!--Section 1:Intro-->
+    <section class="intro">
+        <div class="text">
+            <h2>Hi, I am Abinaya A</h2>
+            <p>I am a Computer Science Engineering graduate, 
+                looking for an opportunity to pursue my career 
+                and expand my skillset by being a part of an organization 
+                with satisfaction.</p>
+        
+        <div class="links">
+            <a href="#education">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Education</span>      
+            </a>
+
+            <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>      
+            </a>
+
+            <a href="#projects">
+            <i class="fa-solid fa-gears"></i>
+            <span>Projects</span>      
+            </a>
+
+            <a href="#hobbies">
+            <i class="fa-solid fa-puzzle-piece"></i>
+            <span>Hobbies</span>      
+            </a>
+
+            <a href="#contact">
+            <i class="fa-solid fa-address-card"></i>
+            <span>Contact</span>      
+            </a>
+        </div>
+        </div>
+        <div class="headshot">
+            <img src="./photo1.jpg" alt="Abinaya Photo">
+        </div>
+    </section>
+
+    <!--Section 2:Education-->
+    <section id="education" class="education">
+        <h2>Education</h2>
+
+        <div class="group">
+            <div class="details">
+            </div>
+            <div class="text"><h3>BE- Computer Science Engineering(2019-2023)</h3>E.G.S. Pillay Engineering College, Nagapattinam
+            </div>
+            <div class="text">CGPA - 8.6/10 </div>
+        </div>
+
+        <div class="group">
+            <div class="details">
+            </div>
+            <div class="text"><h3>HSC(2018-2019)</h3>Government Higher Secondary School, Poonthottam
+            </div>
+            <div class="text">Percentage - 57.6% </div>
+        </div>
+
+        <div class="group">
+            <div class="details">
+            </div>
+            <div class="text"><h3>SSLC(2016-2017)</h3>Government Higher Secondary School, Poonthottam
+            </div>
+            <div class="text">Percentage - 93.6% </div>
+        </div>
+
+    </section>
+
+    <!--Section 3:Skills-->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="text">
+            I am have good knowledge in
+        </div>
+
+        <div class="cells">
+            <div class="cell">
+                <img src="./html logo.png" alt="html logo">
+                <span>HTML</span>
+            </div>
+
+            <div class="cell">
+                <img src="./css logo.png" alt="css logo">
+                <span>CSS</span>
+            </div>
+
+            <div class="cell">
+                <img src="./js logo.png" alt="js logo">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="cell">
+                <img src="./figma logo.png" alt="figma logo">
+                <span>Figma</span>
+            </div>
+
+            <div class="cell">
+                <img src="./c logo.png" alt="c logo">
+                <span>C</span>
+            </div>
+
+            <div class="cell">
+                <img src="./java logo.png" alt="java logo">
+                <span>Java</span>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 4:Projects-->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+
+        <div class="group">
+            <div class="details">
+                <img src="./ageesti.jpg" alt="ageestimation">
+            </div>
+            <div class="text"><h3>Age Estimation in Social Networks using Deep Learning Algorithm</h3>Social network refers to interaction among people in which
+                they create, share, and/or exchange information and ideas
+                in virtual communities and networks. Age progression is generally indicated by skin texture, face
+                structure, skin colour. The face features changes with age
+                progression of a human. This project provides a methodology to estimate the real
+                age of a human by analysing wrinkle area of face images. Based on features, cluster facial values and classify the
+                results to identify the age of person. Provide the permission to access the social networks above
+                18 years. After classification of age, user can access the
+                system.</div>
+        </div>
+
+        <div class="group">
+            <div class="details">
+                <img src="./computerlab.jpg" alt="computerlab">
+            </div>
+            <div class="text"><h3>Computer Laboratory Monitoring System</h3>Computer Laboratory Management System allows
+                you to record the ins and outs of items that belongs to
+                the Computer Laboratory. This is useful in terms of keeping track of the inventory
+                of the Laboratory’s items. This system has borrowed and returning items feature. By this, the system can automatically count the available
+                items in the Laboratory. This system maintains digital registry and provides an automated lab environment. </div>
+        </div>
+
+        <div class="group">
+            <div class="details">
+                <img src="./deliverymanagement.jpg" alt="deliverymanagement">
+            </div>
+            <div class="text"><h3>Delivery Management System</h3>Delivery Management System is a web application for the cargo offices. In which, customer
+            can book their order. good. The manager/clerk can use this software to enter the details of the customer
+            and goods along with the source and destination points. The details of
+            loading the goods into the physical transport system are also recorded
+            by the system. The system has GUI for the users to manage not only
+            daily transactions but also to keep the historical data in the database for
+            future reference. The other user of the system is administrator who can manage the
+            vehicles information as well as employees’ information.</div>
+        </div>
+    </section>
+
+    <!--Section 5:Hobbies-->
+    <section id="hobbies" class="hobbies">
+        <h2>Hobbies</h2>
+        <div class="text">
+            I convert my freetime effective by,
+        </div>
+
+        <div class="cells">
+            <div class="cell">
+                <img src="./chess.png" alt="chess logo">
+                <span>Playing Chess</span>
+            </div>
+
+            <div class="cell">
+                <img src="./badminton.png" alt="badminton logo">
+                <span>Playing Badminton</span>
+            </div>
+
+            <div class="cell">
+                <img src="./editing.png" alt="editing logo">
+                <span>Learning Editing</span>
+            </div>
+    </section>
+
+    <!--Section 6:Contact-->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+
+        <div class="group">
+            <div class="text">
+                Let's start a coversation! 
+            </div>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name"  placeholder="Your name here" required>
+
+                <label for="name">Phone Number</label>
+                <input type="number" id="phonenumber"  placeholder="Your Phone number here" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your mail id here" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10" placeholder="Your message here" required></textarea>
+
+                <button type="submit" onclick="sendMail()">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!--Section 7:footer-->
+    <section class="footer">
+        <div class="group">
+            <div class="socialicons">
+                <a href="https://www.facebook.com/profile.php?id=100061576931627&sk=about"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/abinayaabi1710"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/abinayaabi1710"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            
+        </div>
+        <div class="footerbottom">
+            <p>&copy abinayaabi1710 2024</p>
+        </div>
+    </section>
+</body>
+</html>
